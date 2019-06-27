@@ -9,7 +9,7 @@ GithubFinder is a React project that using Github API to find github users profi
 
 ## Step to run GithubFinder project
 
-1. `cd github-finder`
+1. `cd Github-Finder`
 2. `npm install`
 3. `yarn start`
 4. `open browser with  http://localhost:3000/`
