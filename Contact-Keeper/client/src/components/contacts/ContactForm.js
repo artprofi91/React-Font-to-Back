@@ -52,6 +52,7 @@ const ContactForm = () => {
 				name="name"
 				value={name}
 				onChange={onChange}
+				required
 			/>
 			<input
 				type="text"
@@ -59,6 +60,7 @@ const ContactForm = () => {
 				name="email"
 				value={email}
 				onChange={onChange}
+				required
 			/>
 			<input
 				type="text"
@@ -66,6 +68,7 @@ const ContactForm = () => {
 				name="phone"
 				value={phone}
 				onChange={onChange}
+				required
 			/>
 			<h5>Contact type</h5>
 			<input
@@ -94,7 +97,7 @@ const ContactForm = () => {
 			{current && (
 				<div>
 					<button className="btn btn-light btn-block" onClick={clearAll}>
-						Cleart
+						Clear
 					</button>
 				</div>
 			)}
